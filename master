@@ -1,1 +1,37 @@
-Initial
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            #pink {
+                color: red;
+                font-family:cursive;
+            }
+            .drink {
+                background: brown;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>You're invited!</h1>
+        <h2>Henrique's Khan Academy Graduation!</h2>
+
+        <p>Event agenda:</p>
+        <ul>
+            <li>Welcome Coffee</li>
+            <li>Ceremony</li>
+            <li class="drink">Cocktail</li>
+        </ul>
+
+        <p>What you have to do:</p>
+        <ol>
+            <li class="drink">Bring your own drink</li>
+            <li><em id="pink">Kiss</em> everybody on the cheek</li>
+            <li>Get <strong>wasted!</strong></li>
+        </ol>
+
+    </body>
+</html>
